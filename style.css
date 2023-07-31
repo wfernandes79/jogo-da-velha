@@ -1,0 +1,31 @@
+body{
+    background-color: rgba(17, 0, 255, 0.863);
+}
+
+
+.board {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 0.3fr);
+    grid-gap: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    font-size: 80px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 100px;
+    
+}
+  
+h1 {
+    color: white;
+    text-align: center;
+}
