@@ -29,3 +29,18 @@ h1 {
     color: white;
     text-align: center;
 }
+
+p{
+    color: aliceblue;
+}
+
+footer{
+    background-color: rgb(73, 73, 252);
+    text-align: center;
+    color: aliceblue;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
